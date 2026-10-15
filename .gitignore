@@ -1,0 +1,13 @@
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+
+# Save files and generated Ren'Py files - never commit
+*.save
+saves/
+persistent
+*.rpyc
+*.rpymc
+cache/
+__pycache__/
+*.zip
+*.rpa
